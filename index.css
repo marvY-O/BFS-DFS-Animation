@@ -1,0 +1,76 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.circle{
+    stroke:"black";
+    stroke-width:"3";
+    fill:azure;
+}
+.drawing-board{
+    cursor: default;
+    border: 1px solid black;
+}
+
+.draw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mode-text{
+    margin-top: 20px;
+}
+
+.mode-buttons{
+    display: flex;
+    flex-direction: row;
+    cursor: default;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow:hidden;
+    margin-top: 20px;
+}
+
+.mode-buttons > div{
+    padding: 10px;
+}
+
+.operations{
+    font-weight: bold;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.operations > div{
+    margin: 10px;
+}
+
+.operations > button{
+    margin: 10px;
+}
+
+.error{
+    color: red;
+    margin: 10px;
+}
+
+.action-buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.action-buttons > button{
+    width: 90px;
+    height: 30px;
+    margin: 20px;
+    /*align-items: center;
+    display: flex;
+    justify-content: center;*/
+    margin-top: auto;
+}
+
+
